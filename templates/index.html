@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department of Justice</title>
+    <link href="static/tailwind.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css" rel="stylesheet" />
+</head>
+<body class="bg-gray-50">
+    <!-- Header Section -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+            <div>
+                <h1 class="text-2xl font-bold text-gray-800">Department of Justice</h1>
+                <h2 class="text-lg text-gray-600">Government of India</h2>
+            </div>
+            <div class="text-right">
+                <h2 class="text-lg text-gray-600">िविध और न्याय मंत्रालय, भारत सरकार</h2>
+                <h3 class="text-gray-600">MINISTRY OF LAW AND JUSTICE, GOVERNMENT OF INDIA</h3>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav class="bg-gray-800">
+        <div class="container mx-auto px-4">
+            <ul class="flex justify-between py-4 text-white">
+                <li><a href="#" class="hover:text-blue-300 transition-colors">Home</a></li>
+                <li><a href="#" class="hover:text-blue-300 transition-colors">About Us</a></li>
+                <li><a href="#" class="hover:text-blue-300 transition-colors">Administration of Justice</a></li>
+                <li><a href="#" class="hover:text-blue-300 transition-colors">National Mission</a></li>
+                <li><a href="#" class="hover:text-blue-300 transition-colors">eCourts MMP</a></li>
+                <li><a href="#" class="hover:text-blue-300 transition-colors">Access to Justice</a></li>
+                <li><a href="#" class="hover:text-blue-300 transition-colors">Media Corner</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+        <section class="bg-white rounded-lg shadow-md p-6 mb-8">
+            <h2 class="text-xl font-bold mb-4 text-gray-800">About Department</h2>
+            <p class="text-gray-600">
+                As per the Allocation of Business (Rules), 1961, the Department of Justice is a part of the Ministry of Law & Justice, Government of India...
+            </p>
+        </section>
+
+        <section class="bg-white rounded-lg shadow-md p-6">
+            <h2 class="text-xl font-bold mb-4 text-gray-800">Latest News</h2>
+            <ul class="list-disc list-inside text-gray-600 space-y-2">
+                <li>Grant of Dearness Allowance (DA) to the Judges of Supreme Court and High Courts- Revised Rates.</li>
+                <li>Order of appointment of Shri D. Krishnakumar...</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Chatbot Section -->
+    <div class="fixed bottom-6 right-6 w-96">
+        <div class="bg-white rounded-lg shadow-lg">
+            <div class="bg-gray-800 text-white p-4 rounded-t-lg flex justify-between items-center">
+                <div class="flex items-center space-x-2">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"/>
+                    </svg>
+                    <h3 class="font-semibold">NyayaBot</h3>
+                </div>
+                <button id="minimize-chat" class="hover:text-gray-300">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+            </div>
+            <div id="chat-body" class="p-4">
+                <div id="chat-messages" class="h-80 overflow-y-auto space-y-4 mb-4"></div>
+                <div class="flex space-x-2">
+                    <input type="text" id="user-input" class="flex-1 border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Type your message...">
+                    <button id="send-button" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-white shadow-md mt-8">
+        <div class="container mx-auto px-4 py-6 text-center text-gray-600">
+            <p>Content Owned by DEPARTMENT OF JUSTICE, Ministry of Law and Justice, GOI</p>
+            <p>Developed and hosted by National Informatics Centre...</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+    <script src="static/script.js"></script>
+</body>
+</html>
