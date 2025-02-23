@@ -38,14 +38,6 @@ function sendMessage() {
     }
 }
 
-const minimizeButton = document.getElementById("minimize-chat");
-const chatBody = document.getElementById("chat-body");
-
-minimizeButton.addEventListener("click", () => {
-    chatBody.classList.toggle("hidden");
-    minimizeButton.querySelector("svg").classList.toggle("rotate-180");
-});
-
 document.getElementById("send-button").addEventListener("click", sendMessage);
 document.getElementById("user-input").addEventListener("keypress", function (e) {
     if (e.key === "Enter") {
