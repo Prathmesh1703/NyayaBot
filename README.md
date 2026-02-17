@@ -1,5 +1,5 @@
 # NyayaBot – AI-Powered Legal Chatbot
-
+![Prathmesh Bharsakle](preview.png)
 NyayaBot is an AI-powered legal chatbot designed to provide quick, accessible, and reliable guidance on Indian law. The system interprets complex legal queries and delivers real-time responses using Natural Language Processing (NLP) and AI-based response generation.
 
 NyayaBot aims to reduce reliance on traditional legal consultation systems that are often time-consuming and costly by providing instant, structured legal insights.
