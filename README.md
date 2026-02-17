@@ -1,64 +1,58 @@
-NyayaBot - AI-Powered Legal Chatbot
+# NyayaBot – AI-Powered Legal Chatbot
 
-Introduction
+NyayaBot is an AI-powered legal chatbot designed to provide quick, accessible, and reliable guidance on Indian law. The system interprets complex legal queries and delivers real-time responses using Natural Language Processing (NLP) and AI-based response generation.
 
-NyayaBot is an AI-powered chatbot designed to provide quick and accessible legal assistance for users seeking guidance on Indian law. It helps users interpret complex legal queries and offers accurate, real-time responses, reducing the dependency on traditional legal support systems that are often slow and costly.
+NyayaBot aims to reduce reliance on traditional legal consultation systems that are often time-consuming and costly by providing instant, structured legal insights.
 
-Features
+---
 
-✅ AI-driven chatbot for legal query resolution✅ Trained on a large dataset with 3,000+ columns to capture legal nuances✅ Uses NLP techniques for better understanding and response generation✅ Provides instant legal information to users✅ User-friendly interface for seamless interaction✅ Achieved 90% accuracy in resolving legal queries✅ Won a college-level hackathon and advanced to the zonal competition
+## Table of Contents
 
-Tech Stack
+- Overview  
+- Key Features  
+- System Architecture  
+- Tech Stack  
+- Installation  
+- Usage  
+- Project Structure  
+- Achievements  
+- Future Enhancements  
+- Contributing  
+- License  
 
-Programming Language: Python
+---
 
-Frameworks & Libraries: Flask, Pandas, Scikit-Learn
+## Overview
 
-API: Gemini API
+Legal information can be complex and difficult for the general public to interpret. NyayaBot simplifies access to Indian legal knowledge by:
 
-NLP & AI: Langchain, AI-based response generation
+- Understanding natural language legal queries  
+- Processing structured legal datasets  
+- Generating AI-driven responses  
+- Delivering instant legal insights through a conversational interface  
 
-Deployment: Flask backend with API integration
+The chatbot is trained on a structured dataset containing 3,000+ columns to capture detailed legal nuances and improve response precision.
 
-Installation & Setup
+---
 
-Prerequisites
+## Key Features
 
-Ensure you have Python 3.8+ installed.
+- AI-driven chatbot for legal query resolution  
+- Trained on a large legal dataset (3,000+ columns)  
+- NLP-based query understanding  
+- AI-powered response generation  
+- Real-time legal assistance  
+- User-friendly web interface  
+- Achieved 90% accuracy in resolving legal queries  
 
-Steps
+---
 
-Clone the Repository
+## Achievements
 
-git clone https://github.com/Prathmesh1703/NyayaBot.git
-cd NyayaBot
+- Secured first position in a college-level hackathon  
+- Advanced to zonal-level competition  
+- Demonstrated high-accuracy legal query resolution system  
 
-Install Dependencies
+---
 
-pip install -r requirements.txt
-
-Run the Application
-
-python app.py
-
-Access the ChatbotOpen your browser and go to http://localhost:5000
-
-Usage
-
-Enter your legal query in the chatbot.
-
-NyayaBot will process the question using AI and NLP.
-
-Receive instant legal insights based on Indian law.
-
-Interact and refine your query for better responses.
-
-Future Enhancements
-
-🚀 Multilingual Support for wider accessibility🚀 Integration with Legal Databases for improved accuracy🚀 Voice Query Support for hands-free interaction🚀 Mobile App Development for on-the-go legal assistance
-
-Contribution
-
-Contributions are welcome! Feel free to fork the repo, create a branch, and submit a pull request. For major changes, open an issue first to discuss what you’d like to improve.
-
-Connect with Me: [LinkedIn.](https://www.linkedin.com/in/prathamesh-bharsakale-bb3452257/)
+## System Architecture
