@@ -56,3 +56,115 @@ The chatbot is trained on a structured dataset containing 3,000+ columns to capt
 ---
 
 ## System Architecture
+
+
+User Interface (Web Browser)
+↓
+Flask Backend Server
+↓
+LangChain Processing Layer
+↓
+Gemini API Integration
+↓
+AI-Generated Legal Response
+
+
+The backend processes user queries, applies NLP techniques, and integrates with the Gemini API to generate contextual legal responses.
+
+---
+
+## Tech Stack
+
+### Programming Language
+- Python
+
+### Frameworks & Libraries
+- Flask
+- Pandas
+- Scikit-Learn
+- LangChain
+
+### AI & API
+- Gemini API
+- NLP-based response generation
+
+### Deployment
+- Flask-based backend with API integration
+
+---
+
+## Installation
+
+### Prerequisites
+
+- Python 3.8 or higher
+
+---
+
+### Steps
+
+#### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Prathmesh1703/NyayaBot.git
+cd NyayaBot
+2. Install Dependencies
+pip install -r requirements.txt
+3. Run the Application
+python app.py
+4. Access the Application
+
+Open your browser and navigate to:
+
+http://localhost:5000
+Usage
+
+Enter your legal query into the chatbot interface.
+
+The system processes the query using NLP techniques.
+
+AI generates a structured response based on Indian law.
+
+Refine your query if needed for more specific insights.
+
+Project Structure
+NyayaBot/
+│
+├── app.py
+├── models/
+├── data/
+├── templates/
+├── static/
+├── requirements.txt
+└── README.md
+Future Enhancements
+
+Multilingual support for wider accessibility
+
+Integration with official legal databases
+
+Voice query support
+
+Mobile application development
+
+Enhanced contextual legal reasoning
+
+Contributing
+
+Contributions are welcome.
+
+Fork the repository
+
+Create a feature branch
+
+Commit your changes
+
+Push to your fork
+
+Submit a Pull Request
+
+For major changes, open an issue to discuss proposed improvements.
+
+License
+
+This project is open-source and available under the MIT License.
